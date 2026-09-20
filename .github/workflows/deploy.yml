@@ -24,12 +24,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22" # ✅ تغییر به نسخه 22 برای رفع هشدار
           cache: 'npm'
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
+          enablement: true # ✅ این خط جادویی است و خطای Not Found را رفع می‌کند
           static_site_generator: next
       
       - name: Install dependencies
