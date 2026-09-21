@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   title: 'Security Researcher & Bug Bounty Hunter',
   description: 'Security tools, bug bounty write-ups, and red team operations.',
   github: 'https://github.com/mmahyar639-del',
-  linkedin: 'www.linkedin.com/in/mahyar-m2-1543642b8', // بعداً لینک واقعی را جایگزین کن
+  linkedin: 'https://www.linkedin.com/in/mahyar-m2-1543642b8', // بعداً لینک واقعی را جایگزین کن
   instagram: 'https://www.instagram.com/mahyar.m02/?utm_source=qr&r=nametag',  // بعداً لینک واقعی را جایگزین کن
   email: 'mmahyar639@gmail.com',                  // بعداً ایمیل واقعی را جایگزین کن
 }
